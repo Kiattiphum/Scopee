@@ -10,7 +10,6 @@ int main(int argc,char*argv[])
   N=argc-1;
   a = (int*) malloc (sizeof(int)*N);
   p = (int*) malloc (sizeof(int)*1000);
-       
   for(i = 1; i < argc ; i++)
   {   
     a[i-1] = atoi(argv[i]);
