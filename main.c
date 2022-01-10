@@ -16,6 +16,10 @@ int main(int argc,char*argv[])
     c = 0;
     for(j = 1; j <= a[i-1]; j++)
     {
+      if (a[i-1] <= 0)
+      {
+        break;
+      }
       if (a[i-1]%j == 0)
       {
         c++;
